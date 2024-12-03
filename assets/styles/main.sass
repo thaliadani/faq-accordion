@@ -18,16 +18,17 @@ body
     align-items: center
     justify-content: center
     width: 100vw
-    height: 100vh
     font-family: 'Work Sans', sans-serif
     background-color: $light-pink
 
 header
-    background: linear-gradient(to right, $dark-purple, $soft-purple) no-repeat
     width: 100%
     height: 35%
-    position: absolute
     top: 0
+    position: absolute
+    background-image: url("../imgs/background-pattern-mobile.svg")
+    background-size: cover
+    background-repeat: no-repeat
 
 .container
     display: flex
@@ -38,7 +39,9 @@ header
     background-color: $white
     border-radius: 1rem
     padding: 1.5rem
+    margin-top: 4rem
     position: relative
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
     
     .title
         display: flex
@@ -76,8 +79,6 @@ header
 .attribution
     display: flex
     flex-direction: column
-    align-items: center
-    justify-content: center
     text-align: center
     font-size: 1rem
     font-weight: 600
@@ -87,3 +88,12 @@ header
     a
         color: $grayish-purple
         text-decoration: none
+
+@media screen and (min-width: 1440px)
+    header
+        background-image: url("../imgs/background-pattern-desktop.svg")
+        
+    .container
+        width: 30%
+
+    
