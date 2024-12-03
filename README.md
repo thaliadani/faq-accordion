@@ -9,6 +9,8 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
+  - [Mobile](#mobile)
+  - [Desktop](#desktop)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
@@ -27,12 +29,16 @@ Users should be able to:
 
 ### Screenshot
 
+## Mobile
+![alt text](image-1.png)
 
+## Desktop
+![alt text](image.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/faq-accordion-lbFM1s0gqX)
+- Live Site URL: [Vercel](https://faq-accordion-five-gules.vercel.app/)
 
 ## My process
 
